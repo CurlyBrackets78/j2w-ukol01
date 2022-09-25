@@ -4,7 +4,7 @@ body {
   color: white;
   background: black;
   font-family: Arial;
-  text-align: center;
+  text-align: left;
 }
 
 h1, h2, h3 {
@@ -51,7 +51,7 @@ article {
 
 ol, ul {
   text-align: left;
-  color: beige;
+  color: white;
 
 }
 
@@ -76,6 +76,10 @@ footer img {
 footer a:hover img,
 footer a:active img {
   border-color: magenta;
+}
+
+nav{
+  white-space: pre-line;
 }
 
 
