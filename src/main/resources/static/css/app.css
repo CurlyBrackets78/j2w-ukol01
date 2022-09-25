@@ -1,0 +1,81 @@
+
+
+body {
+  color: white;
+  background: black;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0px;
+}
+
+h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+h1,
+strong,
+em {
+  color: deeppink;
+}
+
+
+/* Links */
+a{
+  color: deeppink;
+  font-weight: bold;
+}
+
+a:hover,
+a:active{
+  color: magenta;
+}
+
+/* Article */
+
+article {
+  border: deeppink 1px solid;
+
+  marging: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 50px;
+
+  max-width: 420px;
+}
+
+ol, ul {
+  text-align: left;
+  color: beige;
+
+}
+
+/* Utilities */
+.highlighted{
+  color: deeppink;
+}
+
+.chunky{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+
+/* Footer */
+footer img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid deeppink;
+}
+
+footer a:hover img,
+footer a:active img {
+  border-color: magenta;
+}
+
+
